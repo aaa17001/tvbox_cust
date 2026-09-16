@@ -1,0 +1,84 @@
+{
+  "urls": [
+    {
+      "url": "http://www.饭太硬.cc/tv",
+      "name": "饭太硬(README)"
+    },
+    {
+      "url": "http://www.饭太硬.net/tv",
+      "name": "饭太硬(多仓)"
+    },
+    {
+      "url": "http://new.王二小放牛娃.top/",
+      "name": "王二小"
+    },
+    {
+      "url": "http://www.英格里希嗷呜.top/tv",
+      "name": "嗷呜(README)"
+    },
+    {
+      "url": "http://itv666.cc/aowu/config.webp",
+      "name": "嗷呜(多仓)"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/FongMi/CatVodSpider@main/json/demo.json",
+      "name": "蜂蜜"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aaa17001/tvbox_cust/master/tvbox/%E5%A4%9A%E4%BB%93.json",
+      "name": "本仓-多仓全量"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aaa17001/tvbox_cust/master/tvbox/fongmi_config.json",
+      "name": "本仓-fongmi配置"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/yangxiaoge/tvbox_cust@master/tvbox/alist/cust_littleyang.json",
+      "name": "云盘自用"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yangxiaoge/tvbox_cust/master/tvbox/PyramidStore/plugin/app/example.json",
+      "name": "PyramidStore"
+    },
+    {
+      "url": "https://raw.liucn.cc/box/m.json",
+      "name": "老刘备"
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "俊佬"
+    },
+    {
+      "url": "https://13413.kstore.space/tv/changqing.json",
+      "name": "科技长青"
+    },
+    {
+      "url": "https://chuanshuo.77blog.cn/tv.json",
+      "name": "玩盒助手"
+    },
+    {
+      "url": "http://cdn.qiaoji8.com/tvbox.json",
+      "name": "天天"
+    },
+    {
+      "url": "https://ztha.top/TVBox/thdjk.json",
+      "name": "挺好分享"
+    },
+    {
+      "url": "http://fmys.top/fmys.json",
+      "name": "驸马"
+    },
+    {
+      "url": "http://tv.nxog.top/m",
+      "name": "TV"
+    },
+    {
+      "url": "https://box.iqinu.com/",
+      "name": "东曦视界"
+    },
+    {
+      "url": "https://www.252035.xyz/z/FongMi.json",
+      "name": "真心"
+    }
+  ]
+}
