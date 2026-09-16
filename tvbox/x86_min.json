@@ -1,0 +1,21 @@
+{
+  "sites": [
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0
+    }
+  ],
+  "lives": [
+    {
+      "name": "仓库直播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/aaa17001/tvbox_cust/master/tvbox/live.txt"
+    }
+  ],
+  "parses": [],
+  "ads": []
+}
