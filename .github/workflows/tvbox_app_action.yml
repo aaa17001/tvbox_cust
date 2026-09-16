@@ -231,10 +231,21 @@ jobs:
           rm -rf apk/
           mkdir -p apk/
           ABI="${{ env.abi || 'arm' }}"
-          find . -type f \( -name "*release*.apk" -o -name "*Release*.apk" \) | while IFS= read -r file; do
+          # 兼容标准 *release*.apk 命名，以及 mlabalabala 输出到 Release/app.apk 的情况
+          find . -type f \( \
+              -name "*release*.apk" -o \
+              -name "*Release*.apk" -o \
+              -name "app.apk" \
+            \) ! -path "*/build/intermediates/*" ! -path "*/build/tmp/*" | while IFS= read -r file; do
             base=$(basename "$file")
+            parent=$(basename "$(dirname "$file")")
+            if [ "$base" = "app.apk" ] && [ "$parent" = "Release" ]; then
+              base="TVBox_release-app.apk"
+            fi
             cp "$file" "apk/${{ matrix.userName }}-${{ matrix.repoName }}-${{ matrix.branchName }}-${ABI}-${base}"
           done
+          echo "收集到的 APK:"
+          ls -la apk/ || true
 
       - name: Release Note
         if: ${{ env.commit }}
